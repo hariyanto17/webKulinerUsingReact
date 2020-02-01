@@ -1,0 +1,55 @@
+.my-footer {
+  padding-top: 30px;
+  background-color: #2c3e50;
+  color: white;
+}
+
+.my-footer ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7;
+}
+
+.my-footer h5 {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.my-footer a {
+  color: #d2d1d1;
+  text-decoration: none;
+}
+
+.my-footer a:hover,
+.my-footer a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+.social-network {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.social-networks a {
+  font-size: 28px;
+  margin-right: 5px;
+  color: #f9f9f9;
+  padding: 10px;
+  transition: 0.2s;
+}
+.social-network a:hover {
+  text-decoration: none;
+}
+
+.social-network .google:hover {
+  color: red;
+}
+.social-network .facebook:hover {
+  color: #0077e2;
+}
+.social-network .twitter:hover {
+  color: #0077e2;
+}
