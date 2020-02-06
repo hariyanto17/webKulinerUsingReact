@@ -4,7 +4,7 @@ import mainImage from '../assets/image/makanan.jpg';
 const ImageAndWelcome = (props) => (
    <>
       <div className="row" style={{ marginBottom: 30 }}>
-         <img src={mainImage} width="100%" alt="Aneka Makanan"></img>
+         <img src={mainImage} className="img-fluid" alt="Aneka Makanan"></img>
       </div>
       <div className="row">
          <div className="col">

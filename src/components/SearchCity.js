@@ -1,5 +1,4 @@
 import React from 'react';
-import CityCard from './CityCard.js';
 
 const SearchCity = (props) => (
    <>
@@ -8,19 +7,17 @@ const SearchCity = (props) => (
             <h3>Search</h3>
             <div className="card">
                <div className="card-body">
-                  <div className="form-row">
-                     <div className="col-11">
+                  <div className="row">
+                     <div className="col-9 col-sm-11">
                         <input className="form-control"
                            type="text"
                            placeholder="Type Keyword or city name"
                            value={props.value}
-                           onChange={props.onChange}
-                        />
+                           onChange={props.onChange} />
                      </div>
                      <div className="col-1">
-                        <button className=" btn btn-success" type="button">
-                           Search
-                    </button>
+                        <button className=" btn btn-success" onClick={props.onClickSearch} type="button">
+                           Search </button>
                      </div>
                   </div>
                </div>
