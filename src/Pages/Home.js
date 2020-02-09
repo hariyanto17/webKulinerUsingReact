@@ -68,6 +68,7 @@ class Home extends Component {
       this.getFeaturecities()
    }
 
+
    render() {
       return (
          <>
